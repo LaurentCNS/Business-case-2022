@@ -8,11 +8,14 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev" : "sass ./app/sass/style.scss ./public/css/style.css --watch"
+    "dev": "sass ./app/sass/style.scss ./public/css/style.css --watch"
   },
   "author": "Laurent Cantos",
   "license": "ISC",
   "devDependencies": {
     "sass": "^1.49.9"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
   }
 }
