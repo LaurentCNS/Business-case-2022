@@ -25,29 +25,38 @@
   <header>
     <!--LOGO/RECHERCHE/PANIER-->
     <div class="headeranduser">
-      <a href=""><img class="logo" src="assets/img/logo.png" alt="logo"></a>
+      <a href=""><img class="logo" src="assets/img/logomedium.png" alt="logo"></a>
       <h1>LA NIMES ALERIE</h1>
-      <form action="search.php" method="post">
-        <label for="search">Recherchez un produit, une marque...</label>
-        <input type="text" name="search" id="search" placeholder="Recherchez un produit, une marque...">
-      </form>
-      <div class="user">
+      <div class="search-container">
+        <form action="envoi.php" method="post">
+          <label for="search">recherche</label>
+          <div class="search">
+            <input type="text" name="search" id="search" placeholder="Recherchez un produit, une marque..."
+              class="round">
+            <input type="submit" value="" class="glass">
+          </div>
+        </form>
+      </div>
+      <div class="user-space">
         <a href="" class="wishlist"></a>
         <a href="" class="order"></a>
         <a href="" class="user"></a>
       </div>
-      <a href="" class="panier"></a>
-      <p class="value">00</p>
+      <div class="basket">
+        <a href="" class="picture"></a>
+        <p class="value">00</p>
+      </div>
+    </div>
     </div>
     <!--NAVBAR PRINCIPALE-->
     <div class="navtop">
       <ul>
-        <li><a href="">Chiens</a></li>        
-        <li><a href="">Chats</a></li>        
-        <li><a href="">Oiseaux</a></li>        
-        <li><a href="">Poissons</a></li>        
-        <li><a href="">Rongeurs</a></li>        
-        <li><a href="">Reptiles</a></li>        
+        <li><a href="">Chiens</a></li>
+        <li><a href="">Chats</a></li>
+        <li><a href="">Oiseaux</a></li>
+        <li><a href="">Poissons</a></li>
+        <li><a href="">Rongeurs</a></li>
+        <li><a href="">Reptiles</a></li>
       </ul>
     </div>
     <!--NAVBAR DE CHEMIN-->
@@ -351,11 +360,11 @@
         <a href="">Voir plus</a>
       </section>
       <!--PROMOTIONS-->
-      <section id="promotions">        
-          <div class="title">
-            <h3>PROMOTIONS</h3>
-            <hr>
-          </div>        
+      <section id="promotions">
+        <div class="title">
+          <h3>PROMOTIONS</h3>
+          <hr>
+        </div>
         <div class="container-flex">
           <div class="card-medium-promo">
             <div class="picture">
@@ -476,7 +485,7 @@
   <footer>
     <!--PIED DE PAGE-->
   </footer>
-  <div class="container-flex">
+  <div class="container">
     <div class="left">
       <div>
         <div class="logo">

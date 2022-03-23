@@ -1,2 +1,21 @@
 @import '../../node_modules/bootstrap/scss/bootstrap-reboot.scss' ;
-//test
+@import 'format.scss' ;
+@import 'header.scss' ;
+@import 'navbar.scss' ;
+
+
+
+.container-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.page-content{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+

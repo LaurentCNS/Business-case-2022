@@ -1,0 +1,34 @@
+.navtop{    
+    width: 100%;
+    height: 25px;
+    background-color: $bleufonce;
+    text-align: center;
+       
+}
+
+.navtop ul li{
+    display: inline;
+    margin-right: 45px;    
+    margin-bottom: 0;  
+}
+
+.navtop ul li a{
+    text-decoration: none;    
+}
+
+.navbottom{    
+    width: 100%;
+    height: 25px;
+    background-color: $beige;
+    text-align: center;    
+}
+
+
+.navbottom ul li{
+    display: inline;
+    margin-right: 25px;  
+}
+
+.navbottom ul li a{
+    text-decoration: none; 
+}
