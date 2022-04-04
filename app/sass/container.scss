@@ -1,0 +1,17 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.page-content{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}

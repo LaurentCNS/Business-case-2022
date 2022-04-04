@@ -1,21 +1,7 @@
-@import '../../node_modules/bootstrap/scss/bootstrap-reboot.scss' ;
+@import url('https://fonts.googleapis.com/css2?family=Arya:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+@import 'container.scss';
 @import 'format.scss' ;
 @import 'header.scss' ;
 @import 'navbar.scss' ;
-
-
-
-.container-flex{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.page-content{
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-
+@import 'banner.scss';

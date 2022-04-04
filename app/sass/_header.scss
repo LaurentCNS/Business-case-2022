@@ -5,7 +5,7 @@
 }
 
 .headeranduser .container {
-    width: 1200px;
+    width: 1570px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -21,7 +21,7 @@
 .headeranduser .search-container{
     width: 500px;
     height: 40px;
-    margin-left: 320px;
+    margin-left: 230px;
     padding-top: 55px;
 }
 
@@ -36,13 +36,18 @@
 }
 
 .headeranduser .round {
-    width: 100%;
+    width: 500px;
+    height: 35px;
     border-radius: 15px;
     border: none;    
     padding: 5px 5px 5px 40px;
     position: absolute;
     top: 0;
     left: 0;    
+}
+
+.headeranduser form{
+    padding-top: 5px;
 }
 
 .headeranduser .round:hover{
@@ -65,9 +70,10 @@
 }
 
 .headeranduser .user-space{
+    position: absolute;
     width: 175px;
     height: 55px;
-    margin-left: 60%;    
+    left: 63%;    
 }
 
 .headeranduser .user-space a{
@@ -119,11 +125,11 @@
     background-position: center; 
     position: absolute;
     top: 0;
-    left: 75%
+    left: 78%
 }
 
 .headeranduser .basket .value{
     position: absolute;
-    top: 0;
-    left: 75%
+    top: 70px;
+    left: 78.8%
 }

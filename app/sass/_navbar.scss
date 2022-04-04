@@ -1,28 +1,39 @@
 .navtop{    
     width: 100%;
-    height: 25px;
+    height: 40px;
     background-color: $bleufonce;
     text-align: center;
-       
+    
 }
 
 .navtop ul li{
-    display: inline;
-    margin-right: 45px;    
+    display: inline;   
+    margin-right: 65px;    
+    margin-bottom: 0;  
+}
+
+.navtop ul{
+    height: 25px;
+    display: inline;           
     margin-bottom: 0;  
 }
 
 .navtop ul li a{
     text-decoration: none;    
+    color: white;
 }
 
 .navbottom{    
     width: 100%;
-    height: 25px;
+    height: 40px;
     background-color: $beige;
     text-align: center;    
 }
 
+.navbottom ul{
+    height: 40px;  
+    padding-top: 5px;
+}
 
 .navbottom ul li{
     display: inline;
@@ -31,4 +42,5 @@
 
 .navbottom ul li a{
     text-decoration: none; 
+    color: black;
 }
