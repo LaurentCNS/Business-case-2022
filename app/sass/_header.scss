@@ -1,7 +1,13 @@
 .headeranduser{
-    background-color: $bleutheme ;
+    background-color: $bleutheme ;   
     width: 100%;
     height: 150px;   
+}
+
+.headeranduser .container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .headeranduser h1{
@@ -15,7 +21,7 @@
 .headeranduser .search-container{
     width: 500px;
     height: 40px;
-    margin-left: 270px;
+    margin-left: 320px;
     padding-top: 55px;
 }
 
@@ -25,8 +31,8 @@
 
 .headeranduser .search {
     position: relative;
-    width: 500px;
-    height: 40px;    
+    width: 300px;
+    height: 55px;    
 }
 
 .headeranduser .round {
@@ -61,7 +67,7 @@
 .headeranduser .user-space{
     width: 175px;
     height: 55px;
-    margin-left: 75%;    
+    margin-left: 60%;    
 }
 
 .headeranduser .user-space a{
@@ -106,9 +112,18 @@
 
 .headeranduser .basket .picture{
     width: 125px;
-    height: 185px;
+    height: 165px;
     background-image: url(../assets/icon/panier.png);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center; 
+    position: absolute;
+    top: 0;
+    left: 75%
+}
+
+.headeranduser .basket .value{
+    position: absolute;
+    top: 0;
+    left: 75%
 }
