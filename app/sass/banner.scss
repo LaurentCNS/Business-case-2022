@@ -5,3 +5,27 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.banner .info{
+    width: 600px;
+    height: 450px;
+    background-color: rgba(0,0,0, 0.5)
+}
+
+.banner .info h3{
+    text-align: center;
+    padding-top: 15%;
+}
+
+.banner .info p{
+    text-align: center;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 8%;
+}
+
+.banner .btnyellow{
+    margin-right: auto;
+    margin-left: auto;
+}

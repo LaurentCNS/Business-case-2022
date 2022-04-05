@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Arya:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,700;1,400&display=swap");
 *, *::before, *::after {
   margin: 0;
   padding: 0;
@@ -28,6 +29,19 @@
   font-family: "Arya", sans-serif;
   text-transform: uppercase;
   font-size: 22px;
+  letter-spacing: 2px;
+}
+
+.banner .info h3 {
+  color: white;
+  font-family: "Arimo", sans-serif;
+  font-size: 2.5rem;
+}
+
+.banner .info p {
+  color: white;
+  font-family: "Arimo", sans-serif;
+  font-size: 1.3rem;
 }
 
 .navbottom {
@@ -35,6 +49,35 @@
   text-transform: uppercase;
   font-weight: bold;
   font-size: 16px;
+}
+
+.btnyellow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 40px;
+  background: #FFC056;
+  border-radius: 12px;
+  color: black;
+  font-size: 1.2rem;
+  text-decoration: none;
+  font-family: "Arimo", sans-serif;
+}
+
+.btnyellow:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 40px;
+  background: #E19F30;
+  border-radius: 12px;
+  border-radius: 12px;
+  color: black;
+  font-size: 1.2rem;
+  text-decoration: none;
+  font-family: "Arimo", sans-serif;
 }
 
 .headeranduser {
@@ -60,7 +103,7 @@
 .headeranduser .search-container {
   width: 500px;
   height: 40px;
-  margin-left: 230px;
+  margin-left: 290px;
   padding-top: 55px;
 }
 
@@ -87,10 +130,6 @@
 
 .headeranduser form {
   padding-top: 5px;
-}
-
-.headeranduser .round:hover {
-  outline: 2px #FFC056 solid;
 }
 
 .headeranduser .glass {
@@ -128,10 +167,30 @@
   background-position: center;
 }
 
+.headeranduser .user-space .wishlist:hover {
+  width: 55px;
+  height: 55px;
+  background: url(../assets/icon/wishlisttrue.svg);
+  transition: ease-in-out 300ms;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
 .headeranduser .user-space .order {
   width: 55px;
   height: 55px;
   background: url(../assets/icon/order.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.headeranduser .user-space .order:hover {
+  width: 55px;
+  height: 55px;
+  background: url(../assets/icon/ordertrue.svg);
+  transition: ease-in-out 300ms;
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
@@ -142,6 +201,16 @@
   height: 55px;
   background: url(../assets/icon/user.svg);
   background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.headeranduser .user-space .user:hover {
+  width: 55px;
+  height: 55px;
+  background: url(../assets/icon/usertrue.svg);
+  background-repeat: no-repeat;
+  transition: ease-in-out 300ms;
   background-size: 100%;
   background-position: center;
 }
@@ -182,6 +251,7 @@
 
 .navtop ul li {
   display: inline;
+  position: relative;
   margin-right: 65px;
   margin-bottom: 0;
 }
@@ -195,6 +265,18 @@
 .navtop ul li a {
   text-decoration: none;
   color: white;
+}
+
+.navtop .arrow {
+  display: inline-block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: url(../assets/icon/arrowbottom.svg);
+  background-repeat: no-repeat;
+  background-size: 10px;
+  margin-left: 10px;
+  top: 20px;
 }
 
 .navbottom {
@@ -225,6 +307,30 @@
   background: url(../assets/img/catspace.png);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.banner .info {
+  width: 600px;
+  height: 450px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.banner .info h3 {
+  text-align: center;
+  padding-top: 15%;
+}
+
+.banner .info p {
+  text-align: center;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 8%;
+}
+
+.banner .btnyellow {
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -8,6 +8,7 @@
 
 .navtop ul li{
     display: inline;   
+    position: relative;
     margin-right: 65px;    
     margin-bottom: 0;  
 }
@@ -21,6 +22,19 @@
 .navtop ul li a{
     text-decoration: none;    
     color: white;
+}
+
+.navtop .arrow{
+    display: inline-block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: url(../assets/icon/arrowbottom.svg);
+    background-repeat: no-repeat;
+    background-size: 10px;
+    margin-left: 10px;
+    top: 20px;
+    
 }
 
 .navbottom{    

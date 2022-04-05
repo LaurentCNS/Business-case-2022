@@ -21,7 +21,7 @@
 .headeranduser .search-container{
     width: 500px;
     height: 40px;
-    margin-left: 230px;
+    margin-left: 290px;
     padding-top: 55px;
 }
 
@@ -48,10 +48,6 @@
 
 .headeranduser form{
     padding-top: 5px;
-}
-
-.headeranduser .round:hover{
-    outline: 2px $orange solid;
 }
 
 .headeranduser .glass {
@@ -89,10 +85,30 @@
     background-position: center;  
 }
 
+.headeranduser .user-space .wishlist:hover{
+    width: 55px;
+    height: 55px;
+    background: url(../assets/icon/wishlisttrue.svg);
+    transition: ease-in-out 300ms;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;  
+}
+
 .headeranduser .user-space .order{
     width: 55px;
     height: 55px;
     background: url(../assets/icon/order.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;  
+}
+
+.headeranduser .user-space .order:hover{
+    width: 55px;
+    height: 55px;
+    background: url(../assets/icon/ordertrue.svg);
+    transition: ease-in-out 300ms;
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;  
@@ -107,6 +123,15 @@
     background-position: center;  
 }
 
+.headeranduser .user-space .user:hover{
+    width: 55px;
+    height: 55px;
+    background: url(../assets/icon/usertrue.svg);
+    background-repeat: no-repeat;
+    transition: ease-in-out 300ms;
+    background-size: 100%;
+    background-position: center;  
+}
 .headeranduser .basket{
     width: 125px;
     height: 185px;
