@@ -6,22 +6,32 @@
     
 }
 
+@media (max-width: 992px) {
+    .navtop{    
+        display: none;        
+    }
+    }
+
+
 .navtop ul li{
     display: inline;   
     position: relative;
     margin-right: 65px;    
     margin-bottom: 0;  
+   
 }
 
-.navtop ul{
-    height: 25px;
-    display: inline;           
+.navtop ul{    
+    display: inline;               
     margin-bottom: 0;  
+
 }
 
 .navtop ul li a{
     text-decoration: none;    
     color: white;
+    display: inline-block;
+    padding-top:7px;
 }
 
 .navtop .arrow{
@@ -33,7 +43,7 @@
     background-repeat: no-repeat;
     background-size: 10px;
     margin-left: 10px;
-    top: 20px;
+    top: 15px;
     
 }
 
@@ -43,6 +53,12 @@
     background-color: $beige;
     text-align: center;    
 }
+
+@media (max-width: 992px) {
+    .navbottom{    
+        display: none;    
+    }
+    }
 
 .navbottom ul{
     height: 40px;  

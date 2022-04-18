@@ -1,0 +1,19 @@
+#compagny{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#compagny img{
+    width: 8%;
+    height: 8%;
+    border: solid 1px grey;
+    margin-right: 20px;
+}
+
+#compagny .arrowleft{
+    width: 400px;
+    height: 400px;
+    background: url(../assets/icon/arrowleft.svg);
+    background-repeat: no-repeat;
+   color: aqua;
+}

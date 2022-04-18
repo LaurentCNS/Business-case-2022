@@ -1,13 +1,53 @@
-.headeranduser{
+.headeranduser{    
     background-color: $bleutheme ;   
     width: 100%;
-    height: 150px;   
+    height: 165px;   
 }
 
-.headeranduser .container {
-    width: 1570px;
+@media (max-width: 992px) {
+    .headeranduser {
+        height: 100px;
+    }
+}
+
+.headeranduser .box {
+    width: 1140px;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    position: relative;
+}
+
+@media (max-width: 576px) {
+    .headeranduser .box {
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+@media (max-width: 992px) {
+    .headeranduser .box {
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+.headeranduser .menuburger{
+    width: 55px;
+    height: 55px;
+    background: url(../assets/icon/burger.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;  
+    
+}
+
+@media (min-width: 992px) {
+    .headeranduser .menuburger{
+        display: none; 
+    }
 }
 
 .headeranduser h1{
@@ -15,22 +55,38 @@
 }
 
 .headeranduser .logo{
-    position: absolute;
+    width: 200px;
+    height: 160px;    
+}
+
+@media (max-width: 992px) {
+    .headeranduser .logo{
+        width: 120px;
+        height: 100px;    
+    }
 }
 
 .headeranduser .search-container{
-    width: 500px;
+    width: 420px;
     height: 40px;
-    margin-left: 290px;
+    margin-right: 110px;
     padding-top: 55px;
+    position: relative;
+    top: 60px;
 }
 
+@media (max-width: 992px) {
+    .headeranduser .search-container{
+        display: none;
+    }    
+    }
+
+    
 .headeranduser label{
     display: none;
 }
 
-.headeranduser .search {
-    position: relative;
+.headeranduser .search {    
     width: 300px;
     height: 55px;    
 }
@@ -45,6 +101,7 @@
     top: 0;
     left: 0;    
 }
+
 
 .headeranduser form{
     padding-top: 5px;
@@ -65,12 +122,27 @@
     background-position: center;  
 }
 
-.headeranduser .user-space{
-    position: absolute;
-    width: 175px;
+.headeranduser .user-space .basketround{
+    width: 55px;
     height: 55px;
-    left: 63%;    
+    background: url(../assets/icon/basket.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;  
 }
+
+.headeranduser .user-space{
+    margin-top: 55px;    
+    width: 235px;
+    height: 55px;     
+}
+
+@media (max-width: 992px) {
+    .headeranduser .user-space{
+        margin-top: 0px;  
+        width: auto;   
+    }    
+    }
 
 .headeranduser .user-space a{
     display: inline-block;
@@ -84,6 +156,12 @@
     background-size: 100%;
     background-position: center;  
 }
+
+@media (max-width: 576px) {
+    .headeranduser .user-space .wishlist{
+        display: none;
+    }    
+    }
 
 .headeranduser .user-space .wishlist:hover{
     width: 55px;
@@ -103,6 +181,12 @@
     background-size: 100%;
     background-position: center;  
 }
+
+@media (max-width: 576px) {
+    .headeranduser .user-space .order{
+        display: none;
+    }    
+    }
 
 .headeranduser .user-space .order:hover{
     width: 55px;
@@ -132,9 +216,42 @@
     background-size: 100%;
     background-position: center;  
 }
+
+.headeranduser .user-space .basketround{
+    width: 55px;
+    height: 55px;
+    background: url(../assets/icon/basket.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;  
+}
+
+@media (min-width: 1141px) {
+    .headeranduser .user-space .basketround{
+        display: none; 
+    }
+}
+
+.headeranduser .user-space .basketround:hover{
+    width: 55px;
+    height: 55px;
+    background: url(../assets/icon/baskettrue.svg);
+    background-repeat: no-repeat;
+    transition: ease-in-out 300ms;
+    background-size: 100%;
+    background-position: center;  
+}
+
 .headeranduser .basket{
     width: 125px;
     height: 185px;
+    position: relative;
+}
+
+@media (max-width: 1140px) {
+    .headeranduser .basket {    
+        display: none;   
+    }
 }
 
 .headeranduser .basket a{
@@ -147,14 +264,32 @@
     background-image: url(../assets/icon/panier.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position: center; 
-    position: absolute;
+    background-position: center;  
     top: 0;
-    left: 78%
 }
 
 .headeranduser .basket .value{
     position: absolute;
-    top: 70px;
-    left: 78.8%
+    top: 75px;
+    left: 20px;   
+}
+
+@media (max-width: 992px) {
+    .headeranduser .value{
+        display: none;  
+    }    
+    }
+
+.headeranduser .absolute{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 230px;
+}
+
+@media (max-width: 992px) {
+    .headeranduser .absolute{
+        position: relative;
+        left: 0px;
+}
 }
